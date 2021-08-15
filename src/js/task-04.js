@@ -1,5 +1,5 @@
-const div = document.querySelector('#counter');
-const el = document.querySelector('#value');
+const counterEL = document.querySelector('#counter');
+const value = document.querySelector('#value');
 const decr = div.firstElementChild;
 const incr = div.lastElementChild;
 
