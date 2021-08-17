@@ -1,7 +1,7 @@
 const counterEL = document.querySelector('#counter');
 const value = document.querySelector('#value');
-const decr = div.firstElementChild;
-const incr = div.lastElementChild;
+const decr = counterEL.firstElementChild;
+const incr = counterEL.lastElementChild;
 
 let counter = 0;
 
