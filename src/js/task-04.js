@@ -6,11 +6,11 @@ const incr = counterEL.lastElementChild;
 let counter = 0;
 
 function decrement()  {
-    el.textContent = counter -= 1;
+    value.textContent = counter -= 1;
 }
 
 function increment() {
-    el.textContent = counter += 1;
+    value.textContent = counter += 1;
 }
 decr.addEventListener('click', decrement)
 incr.addEventListener('click', increment)
